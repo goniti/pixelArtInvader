@@ -1,0 +1,24 @@
+$background-color:#6359cd;
+$background-color-gradient: linear-gradient(
+  45deg,
+  rgba(66, 84, 199, 1) 0%,
+  rgba(108, 90, 206, 1) 100%
+);
+$primary-color: #9b68e4;
+$secondary-color:#3148ad;
+$light-color: #fff;
+// First element
+$panel-color-1: #d2dae2;
+$panel-border-1:solid 2px #808e9b;
+// Second element
+$panel-color-2: #485460;
+$panel-border-2:solid 2px #1e272e;
+// Third element
+$panel-color-3:#fbc048;
+$panel-border-3:solid 2px #f7a835;
+// Fourth element
+$panel-color-4:#79ea83;
+$panel-border-4:solid 2px #67ca6f;
+
+
+$gutter: 1rem;

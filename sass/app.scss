@@ -1,0 +1,14 @@
+// Helpers
+@import 'helpers/reset';
+@import 'helpers/variables';
+
+// Layouts
+@import "layouts/grid";
+
+// Components
+@import "components/colorPanel";
+@import "components/drawingBoard";
+
+// Pages
+@import "pages/header";
+@import "pages/main";
