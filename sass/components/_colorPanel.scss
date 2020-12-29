@@ -1,0 +1,18 @@
+.panel{
+  align-self: flex-end;
+  display: flex;
+  background-color: #4945a3;
+  width: 180px;
+  justify-content: space-around;
+  padding: 0.8em 0.5em;
+
+  &__button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+    &--is-active {
+      transform: scale(1.3);
+    }
+  }
+}
