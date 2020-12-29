@@ -28,4 +28,4 @@ __step 2 - drawing.__
 - Choose a colour by clicking on the colour palette ,
 - Draw by clicking on the pixels of the grid to change their colour.
 
-[start the demo](githublink)
+[start the demo](https://goniti.github.io/pixelArtInvader/)
