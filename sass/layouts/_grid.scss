@@ -1,13 +1,19 @@
+.row {
+  display: flex;
+}
+.settings {
+  display: flex;
+  justify-content: center;
+}
 .app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.settings{
-  display: flex;
-  justify-content: center;
+.panel{
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
 }
-.row {
-  display: flex;
-}
+

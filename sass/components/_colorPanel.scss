@@ -1,10 +1,7 @@
 .panel{
-  align-self: flex-end;
-  display: flex;
-  background-color: #4945a3;
+  background-color: $tertiary-color;
+  padding: $gutter $gutter/2;
   width: 180px;
-  justify-content: space-around;
-  padding: 0.8em 0.5em;
 
   &__button{
     height: 25px;

@@ -20,7 +20,7 @@ In addition to using HTML and CSS, we will learn how to use JavaScript to add in
 
 __step 1 - set up the drawing space.__
 
-- Define a grid size between 4 and 40
+- Define a grid size between 1 and 16
 - Set a pixel size between 15 and 40
 
 __step 2 - drawing.__

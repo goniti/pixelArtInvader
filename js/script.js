@@ -32,7 +32,7 @@ const app = {
   eraseGrid: () => {
     app.slate.innerHTML = '';
   },
-  createPalette: () => {
+  makePalette: () => {
     // Create DOM element
     const colorPalette = document.createElement('div');
     const colorWhite = document.createElement('div');
@@ -71,7 +71,7 @@ const app = {
       });
     }
   },
-  createForm: () => {
+  makeForm: () => {
     const inputGrid = document.createElement('input');
     inputGrid.classList.add('entries', 'entries--grid');
     inputGrid.setAttribute('type', 'text');
@@ -92,16 +92,14 @@ const app = {
     app.form.appendChild(inputGrid);
     app.form.appendChild(inputSize);
     app.form.appendChild(submit);
-
-    app.form.addEventListener('submit', app.handleSubmit);
   },
   handleSubmit: (event) => {
     event.preventDefault();
     const grid = event.target.grid.value;
     const size = event.target.size.value;
 
-    if (grid < 4 || grid > 40 || isNaN(grid)) {
-      alert('La taille de la grille doit etre un nombre compris entre 4 et 40');
+    if (grid < 1 || grid > 16 || isNaN(grid)) {
+      alert('La taille de la grille doit etre un nombre compris entre 1 et 16');
     } else if (size < 15 || size > 40 || isNaN(size)) {
       alert(
         "La taille d'un case en pixels doit etre un nombre compris entre 15 et 40",
@@ -115,9 +113,10 @@ const app = {
   },
   init: () => {
     app.makeGrid();
-    app.createPalette();
+    app.makePalette();
     app.colorPicker();
-    app.createForm();
+    app.makeForm();
+    app.form.addEventListener('submit', app.handleSubmit);
   },
 };
 
