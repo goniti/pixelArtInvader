@@ -76,7 +76,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
-.board {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -86,6 +86,27 @@ select {
 .settings {
   display: flex;
   justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell--white {
+  background-color: #d2dae2;
+  border: solid 2px #808e9b;
+}
+.cell--black {
+  background-color: #485460;
+  border: solid 2px #1e272e;
+}
+.cell--yellow {
+  background-color: #fbc048;
+  border: solid 2px #f7a835;
+}
+.cell--green {
+  background-color: #79ea83;
+  border: solid 2px #67ca6f;
 }
 
 .settings {
@@ -101,7 +122,7 @@ body {
   background-attachment: fixed;
 }
 
-.board {
+.app {
   height: 100vh;
 }
 

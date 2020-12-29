@@ -1,0 +1,18 @@
+.cell{
+  &--white{
+    background-color:$panel-color-1;
+    border: $panel-border-1;
+  }
+  &--black{
+    background-color:$panel-color-2;
+    border: $panel-border-2;
+  }
+  &--yellow{
+    background-color:$panel-color-3;
+    border: $panel-border-3;
+  }
+  &--green{
+    background-color:$panel-color-4;
+    border: $panel-border-4;
+  }
+}

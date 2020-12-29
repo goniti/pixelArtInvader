@@ -1,4 +1,4 @@
-.board {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,4 +7,7 @@
 .settings{
   display: flex;
   justify-content: center;
+}
+.row {
+  display: flex;
 }
